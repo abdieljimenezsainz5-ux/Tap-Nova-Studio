@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tap Nova Studio | Marketing Interactivo con NFC</title>
+<meta name="description" content="Transformamos productos, espacios y negocios en experiencias digitales con NFC. WhatsApp, menús, catálogos, promociones y soluciones personalizadas.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Tap Nova Studio | Marketing que se toca">
+<meta property="og:description" content="Transformamos productos, espacios y negocios en experiencias digitales con NFC. WhatsApp, menús, catálogos, promociones y soluciones personalizadas.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container site-header__bar">
+    <a href="#top" class="brand">
+      <span class="brand__mark">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10.5" stroke="#3ECF8E" stroke-width="1.4"/><path d="M7 9h10M12 9v7" stroke="#3ECF8E" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="17.5" r="1" fill="#3ECF8E"/></svg>
+      </span>
+      Tap<span class="brand__tap">Nova</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Navegación principal">
+      <a href="#que-es">Qué hacemos</a>
+      <a href="#soluciones">Soluciones</a>
+      <a href="#industrias">Industrias</a>
+      <a href="#planes">Planes</a>
+      <a href="#faq">Preguntas</a>
+    </nav>
+
+    <a class="btn btn--primary btn--small header-cta" id="wa-header-btn" href="#" target="_blank" rel="noopener">Hablar por WhatsApp</a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-mobile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+
+  <nav class="nav-mobile" id="nav-mobile" aria-label="Navegación móvil">
+    <a href="#que-es">Qué hacemos</a>
+    <a href="#soluciones">Soluciones</a>
+    <a href="#industrias">Industrias</a>
+    <a href="#planes">Planes</a>
+    <a href="#faq">Preguntas</a>
+    <a class="btn btn--primary btn--block wa-link" href="#" target="_blank" rel="noopener">Hablar por WhatsApp</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__grid">
+      <div>
+        <p class="eyebrow">Marketing que se toca</p>
+        <h1 class="hero__title">Haz que tu negocio cobre vida con un solo <span class="tap-word">TAP</span>.</h1>
+        <p class="hero__subtitle">Creamos experiencias digitales con NFC que conectan a tus clientes con tu negocio de una forma rápida, moderna y memorable.</p>
+        <div class="hero__actions">
+          <a href="#" class="btn btn--primary wa-link" target="_blank" rel="noopener">Quiero una propuesta</a>
+          <a href="#soluciones" class="btn btn--ghost">Ver soluciones</a>
+        </div>
+        <div class="hero__meta">
+          <div><strong>1 toque</strong>sin apps, sin fricción</div>
+          <div><strong>Contenido editable</strong>tú decides a dónde lleva</div>
+          <div><strong>Listo en días</strong>no en meses</div>
+        </div>
+      </div>
+
+      <div class="nfc-stage" aria-hidden="true">
+        <div class="nfc-ring"></div>
+        <div class="nfc-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 12a6 6 0 0 1 6-6M6 12a6 6 0 0 0 6 6M3 12a9 9 0 0 1 9-9M3 12a9 9 0 0 0 9 9"/></svg>
+        </div>
+        <div class="nfc-phone">
+          <div class="nfc-phone__screen">
+            <div class="nfc-phone__ui">
+              <div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <span>Conectado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUÉ ES TAP NOVA ============ -->
+  <section class="section" id="que-es">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Qué hacemos</p>
+        <h2>No vendemos etiquetas. Creamos experiencias.</h2>
+        <p class="lead">Una etiqueta NFC es solo el punto de entrada. Nosotros diseñamos la experiencia que sucede después del TAP.</p>
+      </div>
+
+      <div class="flow reveal">
+        <span class="flow__step flow__step--accent">TAP</span>
+        <span class="flow__arrow">→</span>
+        <span class="flow__step">Experiencia</span>
+        <span class="flow__arrow">→</span>
+        <span class="flow__step">Conversión</span>
+      </div>
+
+      <div class="examples-grid reveal" id="examples-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============ SOLUCIONES ============ -->
+  <section class="section section--alt" id="soluciones">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Soluciones Tap Nova</p>
+        <h2>Tres formas de poner tu negocio a un toque de distancia.</h2>
+      </div>
+
+      <div class="solutions-grid">
+        <!-- 01 NFC para negocios -->
+        <article class="solution-card reveal">
+          <span class="solution-card__num">01</span>
+          <h3>Convierte cualquier objeto en un punto de contacto digital.</h3>
+          <p>Colocamos tecnología NFC en vasos, tarjetas, mesas, mostradores, empaques, stickers y otros puntos estratégicos para conectar físicamente a tus clientes con tu mundo digital.</p>
+          <div class="solution-card__tags">
+            <span class="tag">Vasos</span>
+            <span class="tag">Tarjetas</span>
+            <span class="tag">Menús</span>
+            <span class="tag">Mesas</span>
+            <span class="tag">WhatsApp</span>
+            <span class="tag">Reviews</span>
+          </div>
+          <a href="#" class="btn btn--primary wa-link" data-msg="Hola Tap Nova, quiero NFC para mi negocio." target="_blank" rel="noopener">Quiero NFC para mi negocio</a>
+        </article>
+
+        <!-- 02 NFC familias y escuelas -->
+        <article class="solution-card reveal">
+          <span class="solution-card__num">02</span>
+          <h3>Tecnología que conecta. Privacidad primero.</h3>
+          <p>Soluciones NFC pensadas para identificar y facilitar el contacto en artículos personales como mochilas, loncheras y accesorios, utilizando páginas protegidas y evitando exponer información personal públicamente.</p>
+          <span class="solution-card__badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="14" height="14"><path d="M12 2 4 5v6c0 5 3.5 8.5 8 11 4.5-2.5 8-6 8-11V5l-8-3Z"/></svg>
+            Diseñado con privacidad en mente
+          </span>
+          <div class="solution-card__visual">
+            <div class="backpack-tag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 8V6a4 4 0 0 1 8 0v2M6 8h12l1 13H5L6 8Z"/><path d="M9 12h6"/></svg>
+              <span class="backpack-tag__chip">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 12a6 6 0 0 1 6-6M6 12a6 6 0 0 0 6 6M3 12a9 9 0 0 1 9-9M3 12a9 9 0 0 0 9 9"/></svg>
+              </span>
+            </div>
+          </div>
+          <button class="btn btn--ghost" id="open-privacy-modal" type="button">Más información</button>
+          <a href="#" class="btn btn--primary wa-link" data-msg="Hola Tap Nova, quiero conocer la solución NFC para familias y escuelas." target="_blank" rel="noopener">Conocer esta solución</a>
+        </article>
+
+        <!-- 03 Tap Charge Network -->
+        <article class="solution-card reveal">
+          <span class="solution-card__num">03</span>
+          <h3>Carga eléctrica. Más clientes. Más oportunidades.</h3>
+          <p>Instalamos soluciones de carga para vehículos eléctricos en restaurantes, cafeterías, gimnasios, barberías, plazas y otros establecimientos.</p>
+          <div class="solution-card__visual">
+            <div class="charge-flow">
+              <span>Vehículo</span><span class="sep">→</span>
+              <span>Cargador</span><span class="sep">→</span>
+              <span>TAP</span><span class="sep">→</span>
+              <span>Pago</span><span class="sep">→</span>
+              <span>Negocio</span>
+            </div>
+          </div>
+          <div class="solution-card__tags">
+            <span class="tag">Más clientes</span>
+            <span class="tag">Más tiempo en tienda</span>
+            <span class="tag">Nuevos ingresos</span>
+          </div>
+          <a href="#" class="btn btn--primary wa-link" data-msg="Hola Tap Nova, quiero información sobre Tap Charge Network." target="_blank" rel="noopener">Quiero información sobre Tap Charge</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MODAL PRIVACIDAD ============ -->
+  <div class="modal-overlay" id="privacy-modal">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="privacy-modal-title">
+      <div class="modal__head">
+        <h3 id="privacy-modal-title">Privacidad primero, siempre.</h3>
+        <button class="modal-close" id="close-privacy-modal" aria-label="Cerrar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>No recomendamos colocar teléfonos ni datos directamente visibles en el objeto.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>El NFC abre una página intermedia, no un documento con datos expuestos.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Esa página puede estar protegida y limitada a quien la necesite.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Se puede usar un botón de contacto sin revelar todos los datos.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>El propietario decide qué información se muestra y qué no.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Siempre buscamos minimizar la información personal almacenada.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ============ CÓMO FUNCIONA ============ -->
+  <section class="section section--ink">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Cómo funciona</p>
+        <h2>Tan fácil como TAP.</h2>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card reveal">
+          <span class="step-card__num">01</span>
+          <h3>Toca</h3>
+          <p>El cliente acerca su teléfono al sticker, tarjeta o punto NFC.</p>
+        </div>
+        <div class="step-card reveal">
+          <span class="step-card__num">02</span>
+          <h3>Conecta</h3>
+          <p>Se abre automáticamente la experiencia digital, sin apps ni códigos.</p>
+        </div>
+        <div class="step-card reveal">
+          <span class="step-card__num">03</span>
+          <h3>Interactúa</h3>
+          <p>El cliente compra, contacta, consulta, reserva, sigue redes o hace lo que tu negocio necesita.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INDUSTRIAS ============ -->
+  <section class="section" id="industrias">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Hecho para negocios</p>
+        <h2>Una pequeña etiqueta puede hacer mucho más.</h2>
+      </div>
+
+      <div class="industries-grid" id="industries-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============ DEMO SIMULAR TAP ============ -->
+  <section class="section section--ink">
+    <div class="container demo-wrap">
+      <div class="demo-copy reveal">
+        <p class="eyebrow">Pruébalo tú mismo</p>
+        <h2>Toca. Descubre. Conecta.</h2>
+        <p class="lead">Así es lo que vive tu cliente después del TAP. Sin NFC real: solo presiona el botón y mira la experiencia aparecer.</p>
+        <button class="btn btn--on-dark" id="simulate-tap-btn" type="button">Simular TAP</button>
+      </div>
+
+      <div class="demo-stage reveal">
+        <div class="demo-phone">
+          <div class="demo-phone__screen">
+            <div class="demo-idle" id="demo-idle">
+              <div class="demo-idle__ring">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 12a6 6 0 0 1 6-6M6 12a6 6 0 0 0 6 6M3 12a9 9 0 0 1 9-9M3 12a9 9 0 0 0 9 9"/></svg>
+              </div>
+              <p>Esperando un TAP…</p>
+            </div>
+
+            <div class="demo-result" id="demo-result">
+              <p class="demo-result__welcome">Bienvenido a Tap Nova</p>
+              <a href="#" class="demo-result__btn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"/></svg>WhatsApp</a>
+              <a href="#" class="demo-result__btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>Instagram</a>
+              <a href="#" class="demo-result__btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="M9 9h6v6H9z"/></svg>Catálogo</a>
+              <a href="#" class="demo-result__btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 12a8 8 0 1 1-3-6.2"/><path d="M20 5v5h-5"/></svg>Promoción</a>
+              <a href="#" class="demo-result__btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m12 2 3 6 6 .9-4.5 4.3 1.1 6-5.6-3-5.6 3 1.1-6L3 8.9 9 8l3-6Z"/></svg>Google Reviews</a>
+              <button class="demo-reset" id="demo-reset-btn" type="button">Volver a intentar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PLANES ============ -->
+  <section class="section section--alt" id="planes">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Planes</p>
+        <h2>Una solución para cada etapa de tu negocio.</h2>
+        <p class="lead">Sin precios fijos todavía: cada propuesta se arma según lo que tu negocio necesita.</p>
+      </div>
+
+      <div class="plans-grid">
+        <div class="plan-card reveal">
+          <span class="plan-card__tag">Tap Start</span>
+          <h3>Para comenzar.</h3>
+          <p class="plan-card__desc">Tu primer punto de contacto digital, listo en pocos días.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Tag NFC</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Diseño personalizado</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Link digital</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Configuración básica</li>
+          </ul>
+          <a href="#" class="btn btn--ghost btn--block wa-link" data-msg="Hola Tap Nova, quiero una propuesta para el plan Tap Start." target="_blank" rel="noopener">Solicitar propuesta</a>
+        </div>
+
+        <div class="plan-card plan-card--featured reveal">
+          <span class="plan-card__tag">Tap Business</span>
+          <h3>Para negocios.</h3>
+          <p class="plan-card__desc">La experiencia completa: de la etiqueta a la conversión.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>NFC personalizado</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Landing page</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>WhatsApp</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Redes sociales</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Catálogo</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Experiencia personalizada</li>
+          </ul>
+          <a href="#" class="btn btn--on-dark btn--block wa-link" data-msg="Hola Tap Nova, quiero una propuesta para el plan Tap Business." target="_blank" rel="noopener">Solicitar propuesta</a>
+        </div>
+
+        <div class="plan-card reveal">
+          <span class="plan-card__tag">Tap Experience</span>
+          <h3>Soluciones personalizadas.</h3>
+          <p class="plan-card__desc">Para proyectos que necesitan algo hecho a la medida.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Estrategia</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Diseño</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>NFC</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Landing pages</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Automatizaciones e integraciones</li>
+          </ul>
+          <a href="#" class="btn btn--ghost btn--block wa-link" data-msg="Hola Tap Nova, quiero platicar sobre un proyecto Tap Experience." target="_blank" rel="noopener">Hablemos de tu proyecto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESO ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Proceso</p>
+        <h2>De una idea a una experiencia digital.</h2>
+      </div>
+
+      <div class="process-list reveal">
+        <div class="process-item">
+          <span class="process-item__num">01</span>
+          <div><h3>Platicamos</h3><p>Entendemos tu negocio y qué quieres lograr con NFC.</p></div>
+        </div>
+        <div class="process-item">
+          <span class="process-item__num">02</span>
+          <div><h3>Diseñamos</h3><p>Creamos la experiencia digital y el diseño de tus stickers o tags.</p></div>
+        </div>
+        <div class="process-item">
+          <span class="process-item__num">03</span>
+          <div><h3>Instalamos</h3><p>Colocamos el NFC en los puntos de contacto de tu negocio.</p></div>
+        </div>
+        <div class="process-item">
+          <span class="process-item__num">04</span>
+          <div><h3>Activamos</h3><p>Probamos que cada TAP lleve exactamente a donde debe.</p></div>
+        </div>
+        <div class="process-item">
+          <span class="process-item__num">05</span>
+          <div><h3>Medimos</h3><p>Revisamos resultados y ajustamos la experiencia contigo.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA NEGOCIOS ============ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="cta-band reveal">
+        <p class="eyebrow">¿Tienes un negocio?</p>
+        <h2>Cuéntanos qué quieres mejorar y te proponemos una solución.</h2>
+        <a href="#" class="btn btn--primary wa-link" data-msg="Hola Tap Nova, me interesa conocer sus soluciones para mi negocio." target="_blank" rel="noopener">Hablar con Tap Nova</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Preguntas frecuentes</p>
+        <h2>Todo lo que quieres saber antes de tu primer TAP.</h2>
+      </div>
+
+      <div class="faq-list reveal" id="faq-list"></div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#top" class="brand">
+          <span class="brand__mark">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10.5" stroke="#0B0D0C" stroke-width="1.4"/><path d="M7 9h10M12 9v7" stroke="#0B0D0C" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="17.5" r="1" fill="#0B0D0C"/></svg>
+          </span>
+          Tap<span class="brand__tap">Nova</span>
+        </a>
+        <p class="footer-tagline">Marketing que se toca.</p>
+        <div class="footer-social">
+          <a href="#" id="social-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"/></svg></a>
+          <a href="#" id="social-instagram" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+          <a href="#" id="social-facebook" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 9h3V6h-3a4 4 0 0 0-4 4v2H7v3h3v6h3v-6h3l1-3h-4v-2a1 1 0 0 1 1-1Z"/></svg></a>
+          <a href="#" id="social-tiktok" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 4v10.5a3.5 3.5 0 1 1-3-3.46"/><path d="M14 4c.6 2.3 2.3 4 4.6 4.4"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Navegación</h5>
+        <ul>
+          <li><a href="#top">Inicio</a></li>
+          <li><a href="#soluciones">Soluciones</a></li>
+          <li><a href="#que-es">NFC</a></li>
+          <li><a href="#soluciones">Tap Charge</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contacto</h5>
+        <ul>
+          <li><a href="#" class="wa-link" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
+          <li><a href="#planes">Planes</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Tap Nova Studio</span>
+      <span>Culiacán, Sinaloa · México</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ BOTÓN FLOTANTE WHATSAPP (MÓVIL) ============ -->
+<a href="#" class="wa-float wa-link" id="wa-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
